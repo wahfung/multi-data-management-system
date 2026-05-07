@@ -51,7 +51,7 @@
 
 - 🔐 BCrypt 密码加密，登录与数据库密码保持一致
 - 🌐 UTF-8 编码，支持中文无乱码
-- 📝 标准日志输出，支持 `docker compose logs` 查看
+- 📝 标准日志输出
 - ⚡ 统一错误处理和参数校验
 - 🎨 Element Plus 现代化 UI 组件库
 
@@ -74,7 +74,7 @@
 │   ├── src/main/resources/
 │   │   ├── application.yml # 配置文件
 │   │   └── schema.sql     # 数据库初始化脚本
-│   ├── Dockerfile
+
 │   └── pom.xml
 ├── frontend/               # Vue 3 前端
 │   ├── src/
@@ -84,10 +84,9 @@
 │   │   ├── store/         # Pinia 状态管理
 │   │   ├── utils/         # 工具函数
 │   │   └── views/         # 页面组件
-│   ├── Dockerfile
 │   ├── nginx.conf
 │   └── package.json
-├── docker-compose.yml      # Docker 编排文件
+
 └── README.md
 ```
 
