@@ -7,43 +7,7 @@
 - **Frontend**: Vue 3 + Vite + Element Plus + Pinia + ECharts
 - **Backend**: Spring Boot 3.2 + MyBatis Plus + Spring Security
 - **Database**: MySQL 8.0
-- **Container**: Docker + Docker Compose
 
-## 🚀 启动指南 (How to Run)
-
-### 方式一：Docker Compose 一键启动（推荐）
-
-1. 确保 Docker Desktop 已启动
-2. 在项目根目录执行：
-
-```bash
-docker compose up -d --build
-```
-
-3. 等待容器启动完成（首次构建约需 3-5 分钟）
-
-### 方式二：本地开发启动
-
-1. **启动数据库**
-
-```bash
-docker compose up -d db
-```
-
-2. **启动后端**
-
-```bash
-cd backend
-mvn spring-boot:run
-```
-
-3. **启动前端**
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
 
 ## 🔗 服务地址 (Services)
 
